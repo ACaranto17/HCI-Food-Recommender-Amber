@@ -5,6 +5,7 @@ let selectedBudget = "any";
 
 // DOM elements
 const cuisineButtons = document.querySelectorAll("[data-cuisine]");
+const dietButtons = document.querySelectorAll("[data-diet]"); // Currently not used
 const effortButtons = document.querySelectorAll("[data-effort]");
 const budgetButtons = document.querySelectorAll("[data-budget]");
 const decideButton = document.querySelector("#decideButton");
